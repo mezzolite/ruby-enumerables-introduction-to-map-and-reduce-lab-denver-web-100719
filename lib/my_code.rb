@@ -28,9 +28,9 @@ end
 def reduce_to_any_true(source_array)
   counter = 0
   while counter < source_array.length do
-    break if source_array[counter] == true
+    if source_array[counter] == true
     return true
-  break if source_array[counter] == nil
+  else if source_array[counter] == nil
     return false
     counter += 1 
   end
