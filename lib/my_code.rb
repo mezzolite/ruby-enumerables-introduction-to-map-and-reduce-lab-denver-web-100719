@@ -16,9 +16,7 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array, starting_point)
-   if source_array.reduce(starting_point) { |sum, n| sum + n }
-   else source_array.reduce() { |sum, n| sum + n }
-   end
+  source_array.reduce(starting_point) { |sum, n| sum + n }
 end
 
 def reduce_to_all_true(source_array)
