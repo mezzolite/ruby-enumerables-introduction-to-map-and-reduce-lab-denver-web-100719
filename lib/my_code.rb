@@ -34,7 +34,6 @@ def reduce_to_any_true(source_array)
   break if source_array[counter] == nil
     return false
     counter += 1 
-  end
 end
   
   
