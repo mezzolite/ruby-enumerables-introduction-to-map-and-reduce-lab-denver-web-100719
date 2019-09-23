@@ -28,7 +28,7 @@ end
 def reduce_to_any_true(source_array)
   i = 0
   while source_array[i] == true do
-    source_array = true
+    true
     i+= 1 
   end
 end
