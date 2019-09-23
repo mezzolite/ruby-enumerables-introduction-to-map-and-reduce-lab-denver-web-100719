@@ -32,9 +32,9 @@ def reduce_to_any_true(source_array)
     return true
   else if source_array[counter] == nil
     return false
+  end
     counter += 1 
   end
-end
 end
   
   
