@@ -27,7 +27,7 @@ end
 
 def reduce_to_any_true(source_array)
   if source_array == true
-  else source_array == false
+  else source_array !! false
 end
 end
   
