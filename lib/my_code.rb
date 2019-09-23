@@ -24,7 +24,9 @@ def reduce_to_all_true(source_array)
   else source_array.reduce {|n| n != true}
   end
 end
-  
+
+def reduce_to_any_true(source_array)
+  source_array
   
   
   
