@@ -30,6 +30,9 @@ def reduce_to_any_true(source_array)
   while counter < source_array.length do
     break if source_array[counter] == true
     return true
+  end
+  break if source_array[counter] == nil
+    return false
     counter += 1 
   end
 end
