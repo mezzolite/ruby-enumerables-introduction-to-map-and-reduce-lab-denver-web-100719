@@ -26,11 +26,9 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-  i = 0
-  while source_array[i] == true do
-    true
-    i+= 1 
-  end
+  if source_array == true
+  else source_array == false
+end
 end
   
   
